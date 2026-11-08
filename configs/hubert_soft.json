@@ -1,0 +1,10 @@
+{
+  "encoder": {
+    "name": "hubert_soft",
+    "checkpoint": "weights/hubert_soft/hubert-soft-0d54a1f4.pt",
+    "device": "cpu"
+  },
+  "modes": ["frame", "segment_mean"],
+  "normalization": "l2",
+  "overlap_threshold_sec": 0.001
+}

@@ -1,0 +1,14 @@
+{
+  "encoder": {
+    "name": "syllablelm",
+    "checkpoint": "weights/syllablelm/SylBoost_833Hz.pth",
+    "device": "cpu",
+    "layer": -2
+  },
+  "modes": [
+    "frame",
+    "segment_mean"
+  ],
+  "normalization": "l2",
+  "overlap_threshold_sec": 0.001
+}

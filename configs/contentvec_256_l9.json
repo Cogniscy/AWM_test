@@ -1,0 +1,15 @@
+{
+  "encoder": {
+    "name": "contentvec_256_l9",
+    "checkpoint": "weights/contentvec_256_l9/D_0.pth",
+    "device": "cpu",
+    "layer": 9,
+    "project": true
+  },
+  "modes": [
+    "frame",
+    "segment_mean"
+  ],
+  "normalization": "l2",
+  "overlap_threshold_sec": 0.001
+}

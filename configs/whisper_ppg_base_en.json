@@ -1,0 +1,13 @@
+{
+  "encoder": {
+    "name": "whisper_ppg",
+    "checkpoint": "weights/whisper_ppg/base.en.pt",
+    "device": "cpu"
+  },
+  "modes": [
+    "frame",
+    "segment_mean"
+  ],
+  "normalization": "l2",
+  "overlap_threshold_sec": 0.001
+}

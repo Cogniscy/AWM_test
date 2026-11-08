@@ -1,0 +1,15 @@
+{
+  "encoder": {
+    "name": "contentvec_768_l12",
+    "checkpoint": "weights/contentvec_768_l12/checkpoint_best_legacy_500.pt",
+    "device": "cpu",
+    "layer": 12,
+    "project": false
+  },
+  "modes": [
+    "frame",
+    "segment_mean"
+  ],
+  "normalization": "l2",
+  "overlap_threshold_sec": 0.001
+}

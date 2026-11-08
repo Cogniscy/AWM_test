@@ -1,0 +1,40 @@
+# Local Python environment and generated files
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.ruff_cache/
+build/
+dist/
+
+# Operating system and local settings
+.DS_Store
+.env
+.env.*
+!.env.example
+
+# Source corpus: keep its documentation
+/CORPRES/*
+!/CORPRES/README.md
+
+# Other local datasets: keep documentation and small control fixtures
+/datasets/*
+!/datasets/README.md
+/data/*
+!/data/README.md
+!/data/examples/
+
+# Checkpoints, local logs and exported figures
+/weights/
+/logs/
+/exports/
+*.log
+*.pt
+*.pth
+*.ckpt
+*.onnx
+
+# Local research reports
+/reports/
