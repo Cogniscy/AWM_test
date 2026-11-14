@@ -10,6 +10,7 @@ dependencies = ["numpy"]
 
 [project.optional-dependencies]
 web = ["streamlit>=1.40", "scikit-learn", "vl-convert-python"]
+classifier = ["torch>=2.8"]
 hubert-soft = ["torch", "torchaudio"]
 contentvec = ["torch", "torchaudio", "fairseq"]
 whisper-ppg = ["torch", "torchaudio", "librosa"]
@@ -17,6 +18,9 @@ syllablelm = ["torch", "torchaudio", "omegaconf", "timm"]
 
 [project.scripts]
 extract-phoneme-embeddings = "phoneme_embeddings.extract:main"
+
+[tool.setuptools.package-data]
+"phoneme_embeddings.classifier" = ["classifier_classes.json", "ipa_all.csv"]
 
 [tool.setuptools.packages.find]
 where = ["src"]

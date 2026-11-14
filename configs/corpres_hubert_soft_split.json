@@ -1,0 +1,26 @@
+{
+  "corpus": "CORPRES",
+  "encoder": "hubert_soft",
+  "representation": "segment_mean",
+  "source_run": "data/extracted/hubert_soft/CORPRES/20261107-182942-681191",
+  "label_policy": "raw_seg_B2",
+  "exclude_labels": [
+    "sil"
+  ],
+  "require_vector": true,
+  "speakers": {
+    "train": [
+      "Alexander",
+      "Galina",
+      "Maria",
+      "Petr",
+      "Vladimir"
+    ],
+    "validation": [
+      "Mikhail"
+    ],
+    "test": [
+      "Victoria"
+    ]
+  }
+}

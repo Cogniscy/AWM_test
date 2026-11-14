@@ -1,0 +1,916 @@
+{
+  "split_config": "corpres_hubert_soft_split.json",
+  "feature_table": "corpres_features.json",
+  "pairs": [
+    {
+      "source": "a0",
+      "target": "a4",
+      "feature": "vowel_variant",
+      "from": "0",
+      "to": "4"
+    },
+    {
+      "source": "a0",
+      "target": "y0",
+      "feature": "height",
+      "from": "open",
+      "to": "close"
+    },
+    {
+      "source": "a4",
+      "target": "a0",
+      "feature": "vowel_variant",
+      "from": "4",
+      "to": "0"
+    },
+    {
+      "source": "b",
+      "target": "b'",
+      "feature": "palatalized",
+      "from": false,
+      "to": true
+    },
+    {
+      "source": "b",
+      "target": "d",
+      "feature": "place",
+      "from": "bilabial",
+      "to": "dental"
+    },
+    {
+      "source": "b",
+      "target": "g",
+      "feature": "place",
+      "from": "bilabial",
+      "to": "velar"
+    },
+    {
+      "source": "b",
+      "target": "m",
+      "feature": "manner",
+      "from": "stop",
+      "to": "nasal"
+    },
+    {
+      "source": "b",
+      "target": "p",
+      "feature": "voice",
+      "from": "voiced",
+      "to": "voiceless"
+    },
+    {
+      "source": "b'",
+      "target": "b",
+      "feature": "palatalized",
+      "from": true,
+      "to": false
+    },
+    {
+      "source": "b'",
+      "target": "d'",
+      "feature": "place",
+      "from": "bilabial",
+      "to": "dental"
+    },
+    {
+      "source": "b'",
+      "target": "m'",
+      "feature": "manner",
+      "from": "stop",
+      "to": "nasal"
+    },
+    {
+      "source": "b'",
+      "target": "p'",
+      "feature": "voice",
+      "from": "voiced",
+      "to": "voiceless"
+    },
+    {
+      "source": "c",
+      "target": "ch",
+      "feature": "place",
+      "from": "alveolar",
+      "to": "alveolo-palatal"
+    },
+    {
+      "source": "c",
+      "target": "s",
+      "feature": "manner",
+      "from": "affricate",
+      "to": "fricative"
+    },
+    {
+      "source": "ch",
+      "target": "c",
+      "feature": "place",
+      "from": "alveolo-palatal",
+      "to": "alveolar"
+    },
+    {
+      "source": "d",
+      "target": "b",
+      "feature": "place",
+      "from": "dental",
+      "to": "bilabial"
+    },
+    {
+      "source": "d",
+      "target": "d'",
+      "feature": "palatalized",
+      "from": false,
+      "to": true
+    },
+    {
+      "source": "d",
+      "target": "g",
+      "feature": "place",
+      "from": "dental",
+      "to": "velar"
+    },
+    {
+      "source": "d",
+      "target": "n",
+      "feature": "manner",
+      "from": "stop",
+      "to": "nasal"
+    },
+    {
+      "source": "d",
+      "target": "t",
+      "feature": "voice",
+      "from": "voiced",
+      "to": "voiceless"
+    },
+    {
+      "source": "d'",
+      "target": "b'",
+      "feature": "place",
+      "from": "dental",
+      "to": "bilabial"
+    },
+    {
+      "source": "d'",
+      "target": "d",
+      "feature": "palatalized",
+      "from": true,
+      "to": false
+    },
+    {
+      "source": "d'",
+      "target": "n'",
+      "feature": "manner",
+      "from": "stop",
+      "to": "nasal"
+    },
+    {
+      "source": "d'",
+      "target": "t'",
+      "feature": "voice",
+      "from": "voiced",
+      "to": "voiceless"
+    },
+    {
+      "source": "e0",
+      "target": "i0",
+      "feature": "height",
+      "from": "mid",
+      "to": "close"
+    },
+    {
+      "source": "f",
+      "target": "f'",
+      "feature": "palatalized",
+      "from": false,
+      "to": true
+    },
+    {
+      "source": "f",
+      "target": "h",
+      "feature": "place",
+      "from": "labiodental",
+      "to": "velar"
+    },
+    {
+      "source": "f",
+      "target": "s",
+      "feature": "place",
+      "from": "labiodental",
+      "to": "alveolar"
+    },
+    {
+      "source": "f",
+      "target": "sh",
+      "feature": "place",
+      "from": "labiodental",
+      "to": "postalveolar"
+    },
+    {
+      "source": "f",
+      "target": "v",
+      "feature": "voice",
+      "from": "voiceless",
+      "to": "voiced"
+    },
+    {
+      "source": "f'",
+      "target": "f",
+      "feature": "palatalized",
+      "from": true,
+      "to": false
+    },
+    {
+      "source": "f'",
+      "target": "s'",
+      "feature": "place",
+      "from": "labiodental",
+      "to": "alveolar"
+    },
+    {
+      "source": "f'",
+      "target": "v'",
+      "feature": "voice",
+      "from": "voiceless",
+      "to": "voiced"
+    },
+    {
+      "source": "g",
+      "target": "b",
+      "feature": "place",
+      "from": "velar",
+      "to": "bilabial"
+    },
+    {
+      "source": "g",
+      "target": "d",
+      "feature": "place",
+      "from": "velar",
+      "to": "dental"
+    },
+    {
+      "source": "g",
+      "target": "k",
+      "feature": "voice",
+      "from": "voiced",
+      "to": "voiceless"
+    },
+    {
+      "source": "h",
+      "target": "f",
+      "feature": "place",
+      "from": "velar",
+      "to": "labiodental"
+    },
+    {
+      "source": "h",
+      "target": "k",
+      "feature": "manner",
+      "from": "fricative",
+      "to": "stop"
+    },
+    {
+      "source": "h",
+      "target": "s",
+      "feature": "place",
+      "from": "velar",
+      "to": "alveolar"
+    },
+    {
+      "source": "h",
+      "target": "sh",
+      "feature": "place",
+      "from": "velar",
+      "to": "postalveolar"
+    },
+    {
+      "source": "i0",
+      "target": "e0",
+      "feature": "height",
+      "from": "close",
+      "to": "mid"
+    },
+    {
+      "source": "i0",
+      "target": "i4",
+      "feature": "vowel_variant",
+      "from": "0",
+      "to": "4"
+    },
+    {
+      "source": "i0",
+      "target": "y0",
+      "feature": "backness",
+      "from": "front",
+      "to": "central"
+    },
+    {
+      "source": "i4",
+      "target": "i0",
+      "feature": "vowel_variant",
+      "from": "4",
+      "to": "0"
+    },
+    {
+      "source": "k",
+      "target": "g",
+      "feature": "voice",
+      "from": "voiceless",
+      "to": "voiced"
+    },
+    {
+      "source": "k",
+      "target": "h",
+      "feature": "manner",
+      "from": "stop",
+      "to": "fricative"
+    },
+    {
+      "source": "k",
+      "target": "k'",
+      "feature": "palatalized",
+      "from": false,
+      "to": true
+    },
+    {
+      "source": "k",
+      "target": "p",
+      "feature": "place",
+      "from": "velar",
+      "to": "bilabial"
+    },
+    {
+      "source": "k",
+      "target": "t",
+      "feature": "place",
+      "from": "velar",
+      "to": "dental"
+    },
+    {
+      "source": "k'",
+      "target": "k",
+      "feature": "palatalized",
+      "from": true,
+      "to": false
+    },
+    {
+      "source": "k'",
+      "target": "p'",
+      "feature": "place",
+      "from": "velar",
+      "to": "bilabial"
+    },
+    {
+      "source": "k'",
+      "target": "t'",
+      "feature": "place",
+      "from": "velar",
+      "to": "dental"
+    },
+    {
+      "source": "l",
+      "target": "l'",
+      "feature": "palatalized",
+      "from": false,
+      "to": true
+    },
+    {
+      "source": "l",
+      "target": "r",
+      "feature": "manner",
+      "from": "lateral",
+      "to": "trill"
+    },
+    {
+      "source": "l",
+      "target": "z",
+      "feature": "manner",
+      "from": "lateral",
+      "to": "fricative"
+    },
+    {
+      "source": "l'",
+      "target": "l",
+      "feature": "palatalized",
+      "from": true,
+      "to": false
+    },
+    {
+      "source": "l'",
+      "target": "r'",
+      "feature": "manner",
+      "from": "lateral",
+      "to": "trill"
+    },
+    {
+      "source": "l'",
+      "target": "z'",
+      "feature": "manner",
+      "from": "lateral",
+      "to": "fricative"
+    },
+    {
+      "source": "m",
+      "target": "b",
+      "feature": "manner",
+      "from": "nasal",
+      "to": "stop"
+    },
+    {
+      "source": "m",
+      "target": "m'",
+      "feature": "palatalized",
+      "from": false,
+      "to": true
+    },
+    {
+      "source": "m",
+      "target": "n",
+      "feature": "place",
+      "from": "bilabial",
+      "to": "dental"
+    },
+    {
+      "source": "m'",
+      "target": "b'",
+      "feature": "manner",
+      "from": "nasal",
+      "to": "stop"
+    },
+    {
+      "source": "m'",
+      "target": "m",
+      "feature": "palatalized",
+      "from": true,
+      "to": false
+    },
+    {
+      "source": "m'",
+      "target": "n'",
+      "feature": "place",
+      "from": "bilabial",
+      "to": "dental"
+    },
+    {
+      "source": "n",
+      "target": "d",
+      "feature": "manner",
+      "from": "nasal",
+      "to": "stop"
+    },
+    {
+      "source": "n",
+      "target": "m",
+      "feature": "place",
+      "from": "dental",
+      "to": "bilabial"
+    },
+    {
+      "source": "n",
+      "target": "n'",
+      "feature": "palatalized",
+      "from": false,
+      "to": true
+    },
+    {
+      "source": "n'",
+      "target": "d'",
+      "feature": "manner",
+      "from": "nasal",
+      "to": "stop"
+    },
+    {
+      "source": "n'",
+      "target": "m'",
+      "feature": "place",
+      "from": "dental",
+      "to": "bilabial"
+    },
+    {
+      "source": "n'",
+      "target": "n",
+      "feature": "palatalized",
+      "from": true,
+      "to": false
+    },
+    {
+      "source": "o0",
+      "target": "u0",
+      "feature": "height",
+      "from": "mid",
+      "to": "close"
+    },
+    {
+      "source": "p",
+      "target": "b",
+      "feature": "voice",
+      "from": "voiceless",
+      "to": "voiced"
+    },
+    {
+      "source": "p",
+      "target": "k",
+      "feature": "place",
+      "from": "bilabial",
+      "to": "velar"
+    },
+    {
+      "source": "p",
+      "target": "p'",
+      "feature": "palatalized",
+      "from": false,
+      "to": true
+    },
+    {
+      "source": "p",
+      "target": "t",
+      "feature": "place",
+      "from": "bilabial",
+      "to": "dental"
+    },
+    {
+      "source": "p'",
+      "target": "b'",
+      "feature": "voice",
+      "from": "voiceless",
+      "to": "voiced"
+    },
+    {
+      "source": "p'",
+      "target": "k'",
+      "feature": "place",
+      "from": "bilabial",
+      "to": "velar"
+    },
+    {
+      "source": "p'",
+      "target": "p",
+      "feature": "palatalized",
+      "from": true,
+      "to": false
+    },
+    {
+      "source": "p'",
+      "target": "t'",
+      "feature": "place",
+      "from": "bilabial",
+      "to": "dental"
+    },
+    {
+      "source": "r",
+      "target": "l",
+      "feature": "manner",
+      "from": "trill",
+      "to": "lateral"
+    },
+    {
+      "source": "r",
+      "target": "r'",
+      "feature": "palatalized",
+      "from": false,
+      "to": true
+    },
+    {
+      "source": "r",
+      "target": "z",
+      "feature": "manner",
+      "from": "trill",
+      "to": "fricative"
+    },
+    {
+      "source": "r'",
+      "target": "l'",
+      "feature": "manner",
+      "from": "trill",
+      "to": "lateral"
+    },
+    {
+      "source": "r'",
+      "target": "r",
+      "feature": "palatalized",
+      "from": true,
+      "to": false
+    },
+    {
+      "source": "r'",
+      "target": "z'",
+      "feature": "manner",
+      "from": "trill",
+      "to": "fricative"
+    },
+    {
+      "source": "s",
+      "target": "c",
+      "feature": "manner",
+      "from": "fricative",
+      "to": "affricate"
+    },
+    {
+      "source": "s",
+      "target": "f",
+      "feature": "place",
+      "from": "alveolar",
+      "to": "labiodental"
+    },
+    {
+      "source": "s",
+      "target": "h",
+      "feature": "place",
+      "from": "alveolar",
+      "to": "velar"
+    },
+    {
+      "source": "s",
+      "target": "s'",
+      "feature": "palatalized",
+      "from": false,
+      "to": true
+    },
+    {
+      "source": "s",
+      "target": "sh",
+      "feature": "place",
+      "from": "alveolar",
+      "to": "postalveolar"
+    },
+    {
+      "source": "s",
+      "target": "z",
+      "feature": "voice",
+      "from": "voiceless",
+      "to": "voiced"
+    },
+    {
+      "source": "s'",
+      "target": "f'",
+      "feature": "place",
+      "from": "alveolar",
+      "to": "labiodental"
+    },
+    {
+      "source": "s'",
+      "target": "s",
+      "feature": "palatalized",
+      "from": true,
+      "to": false
+    },
+    {
+      "source": "s'",
+      "target": "z'",
+      "feature": "voice",
+      "from": "voiceless",
+      "to": "voiced"
+    },
+    {
+      "source": "sh",
+      "target": "f",
+      "feature": "place",
+      "from": "postalveolar",
+      "to": "labiodental"
+    },
+    {
+      "source": "sh",
+      "target": "h",
+      "feature": "place",
+      "from": "postalveolar",
+      "to": "velar"
+    },
+    {
+      "source": "sh",
+      "target": "s",
+      "feature": "place",
+      "from": "postalveolar",
+      "to": "alveolar"
+    },
+    {
+      "source": "sh",
+      "target": "zh",
+      "feature": "voice",
+      "from": "voiceless",
+      "to": "voiced"
+    },
+    {
+      "source": "t",
+      "target": "d",
+      "feature": "voice",
+      "from": "voiceless",
+      "to": "voiced"
+    },
+    {
+      "source": "t",
+      "target": "k",
+      "feature": "place",
+      "from": "dental",
+      "to": "velar"
+    },
+    {
+      "source": "t",
+      "target": "p",
+      "feature": "place",
+      "from": "dental",
+      "to": "bilabial"
+    },
+    {
+      "source": "t",
+      "target": "t'",
+      "feature": "palatalized",
+      "from": false,
+      "to": true
+    },
+    {
+      "source": "t'",
+      "target": "d'",
+      "feature": "voice",
+      "from": "voiceless",
+      "to": "voiced"
+    },
+    {
+      "source": "t'",
+      "target": "k'",
+      "feature": "place",
+      "from": "dental",
+      "to": "velar"
+    },
+    {
+      "source": "t'",
+      "target": "p'",
+      "feature": "place",
+      "from": "dental",
+      "to": "bilabial"
+    },
+    {
+      "source": "t'",
+      "target": "t",
+      "feature": "palatalized",
+      "from": true,
+      "to": false
+    },
+    {
+      "source": "u0",
+      "target": "o0",
+      "feature": "height",
+      "from": "close",
+      "to": "mid"
+    },
+    {
+      "source": "v",
+      "target": "f",
+      "feature": "voice",
+      "from": "voiced",
+      "to": "voiceless"
+    },
+    {
+      "source": "v",
+      "target": "v'",
+      "feature": "palatalized",
+      "from": false,
+      "to": true
+    },
+    {
+      "source": "v",
+      "target": "z",
+      "feature": "place",
+      "from": "labiodental",
+      "to": "alveolar"
+    },
+    {
+      "source": "v",
+      "target": "zh",
+      "feature": "place",
+      "from": "labiodental",
+      "to": "postalveolar"
+    },
+    {
+      "source": "v'",
+      "target": "f'",
+      "feature": "voice",
+      "from": "voiced",
+      "to": "voiceless"
+    },
+    {
+      "source": "v'",
+      "target": "v",
+      "feature": "palatalized",
+      "from": true,
+      "to": false
+    },
+    {
+      "source": "v'",
+      "target": "z'",
+      "feature": "place",
+      "from": "labiodental",
+      "to": "alveolar"
+    },
+    {
+      "source": "y0",
+      "target": "a0",
+      "feature": "height",
+      "from": "close",
+      "to": "open"
+    },
+    {
+      "source": "y0",
+      "target": "i0",
+      "feature": "backness",
+      "from": "central",
+      "to": "front"
+    },
+    {
+      "source": "z",
+      "target": "l",
+      "feature": "manner",
+      "from": "fricative",
+      "to": "lateral"
+    },
+    {
+      "source": "z",
+      "target": "r",
+      "feature": "manner",
+      "from": "fricative",
+      "to": "trill"
+    },
+    {
+      "source": "z",
+      "target": "s",
+      "feature": "voice",
+      "from": "voiced",
+      "to": "voiceless"
+    },
+    {
+      "source": "z",
+      "target": "v",
+      "feature": "place",
+      "from": "alveolar",
+      "to": "labiodental"
+    },
+    {
+      "source": "z",
+      "target": "z'",
+      "feature": "palatalized",
+      "from": false,
+      "to": true
+    },
+    {
+      "source": "z",
+      "target": "zh",
+      "feature": "place",
+      "from": "alveolar",
+      "to": "postalveolar"
+    },
+    {
+      "source": "z'",
+      "target": "l'",
+      "feature": "manner",
+      "from": "fricative",
+      "to": "lateral"
+    },
+    {
+      "source": "z'",
+      "target": "r'",
+      "feature": "manner",
+      "from": "fricative",
+      "to": "trill"
+    },
+    {
+      "source": "z'",
+      "target": "s'",
+      "feature": "voice",
+      "from": "voiced",
+      "to": "voiceless"
+    },
+    {
+      "source": "z'",
+      "target": "v'",
+      "feature": "place",
+      "from": "alveolar",
+      "to": "labiodental"
+    },
+    {
+      "source": "z'",
+      "target": "z",
+      "feature": "palatalized",
+      "from": true,
+      "to": false
+    },
+    {
+      "source": "zh",
+      "target": "sh",
+      "feature": "voice",
+      "from": "voiced",
+      "to": "voiceless"
+    },
+    {
+      "source": "zh",
+      "target": "v",
+      "feature": "place",
+      "from": "postalveolar",
+      "to": "labiodental"
+    },
+    {
+      "source": "zh",
+      "target": "z",
+      "feature": "place",
+      "from": "postalveolar",
+      "to": "alveolar"
+    }
+  ]
+}

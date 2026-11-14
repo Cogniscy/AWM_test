@@ -1,0 +1,672 @@
+{
+  "source": "Thesis_project_final/ToIPA.py, symbols_dicts",
+  "status": "pilot",
+  "classifier": "VACXUXVEXO",
+  "labels": {
+    "a0": {
+      "ipa": "a",
+      "features": {
+        "type": "vowel",
+        "height": "open",
+        "backness": "central",
+        "rounded": false,
+        "vowel_variant": "0"
+      },
+      "counts": {
+        "train": 51259,
+        "validation": 13567,
+        "test": 15386
+      }
+    },
+    "a4": {
+      "ipa": "ə",
+      "features": {
+        "type": "vowel",
+        "height": "open",
+        "backness": "central",
+        "rounded": false,
+        "vowel_variant": "4"
+      },
+      "counts": {
+        "train": 50510,
+        "validation": 12007,
+        "test": 14426
+      }
+    },
+    "b": {
+      "ipa": "b",
+      "features": {
+        "type": "consonant",
+        "voice": "voiced",
+        "place": "bilabial",
+        "manner": "stop",
+        "palatalized": false
+      },
+      "counts": {
+        "train": 13174,
+        "validation": 3796,
+        "test": 4138
+      }
+    },
+    "b'": {
+      "ipa": "bʲ",
+      "features": {
+        "type": "consonant",
+        "voice": "voiced",
+        "place": "bilabial",
+        "manner": "stop",
+        "palatalized": true
+      },
+      "counts": {
+        "train": 4209,
+        "validation": 1053,
+        "test": 1182
+      }
+    },
+    "c": {
+      "ipa": "t͡s",
+      "features": {
+        "type": "consonant",
+        "voice": "voiceless",
+        "place": "alveolar",
+        "manner": "affricate",
+        "palatalized": false
+      },
+      "counts": {
+        "train": 9964,
+        "validation": 2800,
+        "test": 3398
+      }
+    },
+    "ch": {
+      "ipa": "t͡ɕ",
+      "features": {
+        "type": "consonant",
+        "voice": "voiceless",
+        "place": "alveolo-palatal",
+        "manner": "affricate",
+        "palatalized": false
+      },
+      "counts": {
+        "train": 13955,
+        "validation": 4053,
+        "test": 4222
+      }
+    },
+    "d": {
+      "ipa": "d",
+      "features": {
+        "type": "consonant",
+        "voice": "voiced",
+        "place": "dental",
+        "manner": "stop",
+        "palatalized": false
+      },
+      "counts": {
+        "train": 24342,
+        "validation": 6475,
+        "test": 7441
+      }
+    },
+    "d'": {
+      "ipa": "dʲ",
+      "features": {
+        "type": "consonant",
+        "voice": "voiced",
+        "place": "dental",
+        "manner": "stop",
+        "palatalized": true
+      },
+      "counts": {
+        "train": 12645,
+        "validation": 3325,
+        "test": 4120
+      }
+    },
+    "e0": {
+      "ipa": "e",
+      "features": {
+        "type": "vowel",
+        "height": "mid",
+        "backness": "front",
+        "rounded": false,
+        "vowel_variant": "0"
+      },
+      "counts": {
+        "train": 33341,
+        "validation": 9006,
+        "test": 10554
+      }
+    },
+    "f": {
+      "ipa": "f",
+      "features": {
+        "type": "consonant",
+        "voice": "voiceless",
+        "place": "labiodental",
+        "manner": "fricative",
+        "palatalized": false
+      },
+      "counts": {
+        "train": 12654,
+        "validation": 3200,
+        "test": 4137
+      }
+    },
+    "f'": {
+      "ipa": "fʲ",
+      "features": {
+        "type": "consonant",
+        "voice": "voiceless",
+        "place": "labiodental",
+        "manner": "fricative",
+        "palatalized": true
+      },
+      "counts": {
+        "train": 1643,
+        "validation": 408,
+        "test": 503
+      }
+    },
+    "g": {
+      "ipa": "ɡ",
+      "features": {
+        "type": "consonant",
+        "voice": "voiced",
+        "place": "velar",
+        "manner": "stop",
+        "palatalized": false
+      },
+      "counts": {
+        "train": 12522,
+        "validation": 3234,
+        "test": 3986
+      }
+    },
+    "h": {
+      "ipa": "x",
+      "features": {
+        "type": "consonant",
+        "voice": "voiceless",
+        "place": "velar",
+        "manner": "fricative",
+        "palatalized": false
+      },
+      "counts": {
+        "train": 9257,
+        "validation": 2776,
+        "test": 2837
+      }
+    },
+    "i0": {
+      "ipa": "i",
+      "features": {
+        "type": "vowel",
+        "height": "close",
+        "backness": "front",
+        "rounded": false,
+        "vowel_variant": "0"
+      },
+      "counts": {
+        "train": 22363,
+        "validation": 5821,
+        "test": 6561
+      }
+    },
+    "i4": {
+      "ipa": "ɪ",
+      "features": {
+        "type": "vowel",
+        "height": "close",
+        "backness": "front",
+        "rounded": false,
+        "vowel_variant": "4"
+      },
+      "counts": {
+        "train": 38873,
+        "validation": 8915,
+        "test": 12134
+      }
+    },
+    "j": {
+      "ipa": "j",
+      "features": {
+        "type": "consonant",
+        "voice": "voiced",
+        "place": "palatal",
+        "manner": "approximant",
+        "palatalized": false
+      },
+      "counts": {
+        "train": 13859,
+        "validation": 3043,
+        "test": 3466
+      }
+    },
+    "k": {
+      "ipa": "k",
+      "features": {
+        "type": "consonant",
+        "voice": "voiceless",
+        "place": "velar",
+        "manner": "stop",
+        "palatalized": false
+      },
+      "counts": {
+        "train": 34229,
+        "validation": 9670,
+        "test": 9799
+      }
+    },
+    "k'": {
+      "ipa": "kʲ",
+      "features": {
+        "type": "consonant",
+        "voice": "voiceless",
+        "place": "velar",
+        "manner": "stop",
+        "palatalized": true
+      },
+      "counts": {
+        "train": 4638,
+        "validation": 1310,
+        "test": 1461
+      }
+    },
+    "l": {
+      "ipa": "l",
+      "features": {
+        "type": "consonant",
+        "voice": "voiced",
+        "place": "alveolar",
+        "manner": "lateral",
+        "palatalized": false
+      },
+      "counts": {
+        "train": 25859,
+        "validation": 6833,
+        "test": 7620
+      }
+    },
+    "l'": {
+      "ipa": "lʲ",
+      "features": {
+        "type": "consonant",
+        "voice": "voiced",
+        "place": "alveolar",
+        "manner": "lateral",
+        "palatalized": true
+      },
+      "counts": {
+        "train": 24103,
+        "validation": 6812,
+        "test": 7470
+      }
+    },
+    "m": {
+      "ipa": "m",
+      "features": {
+        "type": "consonant",
+        "voice": "voiced",
+        "place": "bilabial",
+        "manner": "nasal",
+        "palatalized": false
+      },
+      "counts": {
+        "train": 26707,
+        "validation": 7867,
+        "test": 7848
+      }
+    },
+    "m'": {
+      "ipa": "mʲ",
+      "features": {
+        "type": "consonant",
+        "voice": "voiced",
+        "place": "bilabial",
+        "manner": "nasal",
+        "palatalized": true
+      },
+      "counts": {
+        "train": 11886,
+        "validation": 3260,
+        "test": 3748
+      }
+    },
+    "n": {
+      "ipa": "n",
+      "features": {
+        "type": "consonant",
+        "voice": "voiced",
+        "place": "dental",
+        "manner": "nasal",
+        "palatalized": false
+      },
+      "counts": {
+        "train": 46537,
+        "validation": 12126,
+        "test": 14037
+      }
+    },
+    "n'": {
+      "ipa": "nʲ",
+      "features": {
+        "type": "consonant",
+        "voice": "voiced",
+        "place": "dental",
+        "manner": "nasal",
+        "palatalized": true
+      },
+      "counts": {
+        "train": 27403,
+        "validation": 7593,
+        "test": 8197
+      }
+    },
+    "o0": {
+      "ipa": "o",
+      "features": {
+        "type": "vowel",
+        "height": "mid",
+        "backness": "back",
+        "rounded": true,
+        "vowel_variant": "0"
+      },
+      "counts": {
+        "train": 42447,
+        "validation": 11807,
+        "test": 12240
+      }
+    },
+    "p": {
+      "ipa": "p",
+      "features": {
+        "type": "consonant",
+        "voice": "voiceless",
+        "place": "bilabial",
+        "manner": "stop",
+        "palatalized": false
+      },
+      "counts": {
+        "train": 28869,
+        "validation": 7887,
+        "test": 9194
+      }
+    },
+    "p'": {
+      "ipa": "pʲ",
+      "features": {
+        "type": "consonant",
+        "voice": "voiceless",
+        "place": "bilabial",
+        "manner": "stop",
+        "palatalized": true
+      },
+      "counts": {
+        "train": 4973,
+        "validation": 1416,
+        "test": 1450
+      }
+    },
+    "r": {
+      "ipa": "r",
+      "features": {
+        "type": "consonant",
+        "voice": "voiced",
+        "place": "alveolar",
+        "manner": "trill",
+        "palatalized": false
+      },
+      "counts": {
+        "train": 33560,
+        "validation": 9462,
+        "test": 11115
+      }
+    },
+    "r'": {
+      "ipa": "rʲ",
+      "features": {
+        "type": "consonant",
+        "voice": "voiced",
+        "place": "alveolar",
+        "manner": "trill",
+        "palatalized": true
+      },
+      "counts": {
+        "train": 15566,
+        "validation": 4078,
+        "test": 5390
+      }
+    },
+    "s": {
+      "ipa": "s",
+      "features": {
+        "type": "consonant",
+        "voice": "voiceless",
+        "place": "alveolar",
+        "manner": "fricative",
+        "palatalized": false
+      },
+      "counts": {
+        "train": 38440,
+        "validation": 10622,
+        "test": 11926
+      }
+    },
+    "s'": {
+      "ipa": "sʲ",
+      "features": {
+        "type": "consonant",
+        "voice": "voiceless",
+        "place": "alveolar",
+        "manner": "fricative",
+        "palatalized": true
+      },
+      "counts": {
+        "train": 18174,
+        "validation": 5193,
+        "test": 5983
+      }
+    },
+    "sh": {
+      "ipa": "ʂ",
+      "features": {
+        "type": "consonant",
+        "voice": "voiceless",
+        "place": "postalveolar",
+        "manner": "fricative",
+        "palatalized": false
+      },
+      "counts": {
+        "train": 13539,
+        "validation": 3560,
+        "test": 4017
+      }
+    },
+    "t": {
+      "ipa": "t",
+      "features": {
+        "type": "consonant",
+        "voice": "voiceless",
+        "place": "dental",
+        "manner": "stop",
+        "palatalized": false
+      },
+      "counts": {
+        "train": 53370,
+        "validation": 15308,
+        "test": 16650
+      }
+    },
+    "t'": {
+      "ipa": "tʲ",
+      "features": {
+        "type": "consonant",
+        "voice": "voiceless",
+        "place": "dental",
+        "manner": "stop",
+        "palatalized": true
+      },
+      "counts": {
+        "train": 23163,
+        "validation": 6466,
+        "test": 6680
+      }
+    },
+    "u0": {
+      "ipa": "u",
+      "features": {
+        "type": "vowel",
+        "height": "close",
+        "backness": "back",
+        "rounded": true,
+        "vowel_variant": "0"
+      },
+      "counts": {
+        "train": 12393,
+        "validation": 3151,
+        "test": 3709
+      }
+    },
+    "v": {
+      "ipa": "v",
+      "features": {
+        "type": "consonant",
+        "voice": "voiced",
+        "place": "labiodental",
+        "manner": "fricative",
+        "palatalized": false
+      },
+      "counts": {
+        "train": 32275,
+        "validation": 8297,
+        "test": 10682
+      }
+    },
+    "v'": {
+      "ipa": "vʲ",
+      "features": {
+        "type": "consonant",
+        "voice": "voiced",
+        "place": "labiodental",
+        "manner": "fricative",
+        "palatalized": true
+      },
+      "counts": {
+        "train": 9896,
+        "validation": 2429,
+        "test": 3269
+      }
+    },
+    "y0": {
+      "ipa": "ɨ",
+      "features": {
+        "type": "vowel",
+        "height": "close",
+        "backness": "central",
+        "rounded": false,
+        "vowel_variant": "0"
+      },
+      "counts": {
+        "train": 9227,
+        "validation": 2166,
+        "test": 2814
+      }
+    },
+    "z": {
+      "ipa": "z",
+      "features": {
+        "type": "consonant",
+        "voice": "voiced",
+        "place": "alveolar",
+        "manner": "fricative",
+        "palatalized": false
+      },
+      "counts": {
+        "train": 17142,
+        "validation": 4905,
+        "test": 4957
+      }
+    },
+    "z'": {
+      "ipa": "zʲ",
+      "features": {
+        "type": "consonant",
+        "voice": "voiced",
+        "place": "alveolar",
+        "manner": "fricative",
+        "palatalized": true
+      },
+      "counts": {
+        "train": 3214,
+        "validation": 747,
+        "test": 903
+      }
+    },
+    "zh": {
+      "ipa": "ʐ",
+      "features": {
+        "type": "consonant",
+        "voice": "voiced",
+        "place": "postalveolar",
+        "manner": "fricative",
+        "palatalized": false
+      },
+      "counts": {
+        "train": 11463,
+        "validation": 3105,
+        "test": 3375
+      }
+    }
+  },
+  "excluded_corpus_labels": [
+    "-1",
+    "-2",
+    "C",
+    "CH",
+    "H",
+    "SC",
+    "a0 j",
+    "a1",
+    "a1 j",
+    "a2",
+    "a2 j",
+    "a4 j",
+    "e0 j",
+    "e1",
+    "e4",
+    "g'",
+    "h'",
+    "i0 j",
+    "i1",
+    "i1 j",
+    "i4 j",
+    "j a0",
+    "j a4",
+    "j e0",
+    "j e4",
+    "j i0",
+    "j i1",
+    "j i4",
+    "j o0",
+    "j o1",
+    "j u0",
+    "j u1",
+    "j u4",
+    "o0 j",
+    "o0_j",
+    "o1",
+    "o4",
+    "sc",
+    "u0 j",
+    "u1",
+    "u1 j",
+    "u4",
+    "u4 j",
+    "y0 j",
+    "y1",
+    "y1 j",
+    "y4",
+    "y4 j"
+  ]
+}

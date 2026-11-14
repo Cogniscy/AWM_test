@@ -38,3 +38,5 @@ dist/
 
 # Local research reports
 /reports/
+
+/src/phoneme_embeddings/classifier/weights/ResistantBias_*
